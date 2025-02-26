@@ -20,4 +20,5 @@ int main() {
 		ReleaseDC(0, hdc);
 		Sleep(10);
 	}
+	return 0x00;
 }
