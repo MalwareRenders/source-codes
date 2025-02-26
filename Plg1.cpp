@@ -1,12 +1,13 @@
+// This effect was for the 437 collab with @MaxiToysOfficial.
+//
+
 #include <windows.h>
 
-int main()
-{
+int main() {
 	HDC hdc = GetDC(0);
 	RECT wRect;
 	POINT wPt[3];
-	while (1)
-	{
+	while (true) {
 		hdc = GetDC(0);
 		GetWindowRect(GetDesktopWindow(), &wRect);
 		wPt[0].x = wRect.left + 120;
