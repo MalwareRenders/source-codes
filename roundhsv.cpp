@@ -66,7 +66,7 @@ int main() {
 		int bottom_y = 100 + rand_num_y;
 		
 		HBRUSH hbrush = CreateSolidBrush(COLORHSL(increment));
-    SelectObject(hdc, hbrush); 
+                SelectObject(hdc, hbrush); 
 
 		RoundRect(hdc, top_x, top_y, bottom_x, bottom_y, 50, 50);
 		Sleep(100);
